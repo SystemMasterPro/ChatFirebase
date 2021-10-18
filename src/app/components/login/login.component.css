@@ -1,0 +1,17 @@
+.title{
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: -1px -1px 1px 0px rgb(0,0,0,0.2);
+    border-radius: 1px;
+}
+.subtitle{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+}
+.borderImage:hover{
+    padding: 20px;
+    box-shadow: -5px -3px 5px 4px rgba(16, 81, 155, 0.8);
+}
+.card{
+    background-color: rgba(16, 11, 21, 0.385);
+}

@@ -1,0 +1,25 @@
+<div class="container main-container">
+    <div class="row">
+        <div class="col-12 centerChat">
+                <div class="chat-window">
+                    <h1 style="color: white; text-align: center;">🔥🔥🔥</h1>
+                    <hr>
+                    <div class="app-mensajes" id="app-mensajes">
+                        <div *ngFor="let chat of cs.chats" [ngClass]="{'text-right': cs.usuario.uid==chat.uid}">
+                            <hr>
+                            <span class="badge"
+                                [ngClass]="{'badge-primary':cs.usuario.uid==chat.uid,'badge-success':cs.usuario.uid!=chat.uid}">{{chat.nombre}}</span>
+                            <p style="font-family: 'Times New Roman', Times, serif;color: white;">{{chat.mensaje}}</p>
+                            <!-- <p>{{chat.fecha}}</p> -->
+                        </div>
+                    </div>
+                    <div class="row m-3">
+                        <!-- <textarea name="" id="" cols="30" rows="10"></textarea> -->
+                        <textarea type="text" name="mensaje" [(ngModel)]="mensaje" class="form-control mr-2"
+                            (keyup.enter)="enviarMensaje()" placeholder="Mensaje ..."></textarea>
+                        <button class="btn" (click)="enviarMensaje()"><span class="send">></span></button>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>

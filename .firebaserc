@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "chatfirebase-7d31b": {
+      "hosting": {
+        "chatfirebase": [
+          "chatfirebase-7d31b"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "chatfirebase-7d31b"
+  }
+}

@@ -1,0 +1,23 @@
+.form-control{
+    width: 82%;
+    border-radius: 15px;
+    height: auto;
+}
+
+.btn{
+    width: 15%;
+    border-radius: 50px;
+    background-color: rgb(93, 82, 169);
+}
+
+.send{
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+/* .centerChat{
+    position: fixed;
+    justify-content: center;
+    text-align: center;
+} */

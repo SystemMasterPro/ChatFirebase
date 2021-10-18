@@ -1,0 +1,15 @@
+.colorText{
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
+.buttonPosition{
+    position: fixed;
+    right: 0;
+    margin: 20px;
+}
+
+.navbar-brand{
+    position: fixed;
+    left: 90px;
+}

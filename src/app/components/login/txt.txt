@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <br>
+            <h4 class="text-center" style="color: white;">INGRESE AL CHAT CON SU CUENTA FAVORITA</h4>
+            <br>
+            <div class="text-center">
+                <button class="btn btn-outline-danger btn-lg btn-block active" (click)="loginGoogle()">Google</button>
+                <button class="btn btn-outline-primary btn-lg btn-block active" (click)="loginTwitter()">Twitter</button>
+                <button class="btn btn-outline-primary btn-lg btn-block" (click)="loginFacebook()">Facebook</button>
+            </div>
+            <br>
+        </div>
+    </div>
+</div>
